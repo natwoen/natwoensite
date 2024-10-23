@@ -19,17 +19,19 @@ header nav ul li {
   display: inline;
 }
 
-a {
+.links {
   color: #f8ed0c;
 }
 
-a:hover {
+.links:hover {
   color: #00aeff;
 }
 
 .project {
   margin-bottom: 20px;
-  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 1px;
+
   border: 1px solid #f8ed0c;
 }
 
@@ -44,7 +46,7 @@ a:hover {
   width: 250px;
   float: left;
   margin-right: 10px;
-  margin-left: 10px;
+  padding-left: 5px;
 }
 
 .clear {
@@ -90,4 +92,16 @@ p {
 .centered {
   text-align: center;
   border-bottom: #f8ed0c 0.5px solid;
+}
+
+.button {
+  color: #9a9add;
+  background-color: #f8ed0c;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 25px;
+}
+.button:hover {
+  color: #7878bb;
+  background-color: #d6cb0a;
 }
