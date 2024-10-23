@@ -1,0 +1,93 @@
+body {
+  font-family: sans-serif;
+  background-color: #000015;
+}
+
+header {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-bottom: 3px solid #f8ed0c;
+  background-color: black;
+  color: white;
+}
+
+header h1 {
+  font-size: 2em;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+a {
+  color: #f8ed0c;
+}
+
+a:hover {
+  color: #00aeff;
+}
+
+.project {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f8ed0c;
+}
+
+.project h2,
+#aboutme h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.project img,
+#aboutme img {
+  width: 250px;
+  float: left;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.clear {
+  clear: both;
+}
+
+.sigma {
+  height: 100%;
+  max-height: 150px;
+  overflow-y: scroll;
+}
+
+#project-container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 600px;
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+}
+
+#drawing {
+  margin-left: 17em;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 19px;
+}
+
+#aboutme {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 600px;
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  height: 300px;
+  font-family: sans-serif;
+  border: #f8ed0c 1px solid;
+}
+
+.centered {
+  text-align: center;
+  border-bottom: #f8ed0c 0.5px solid;
+}
