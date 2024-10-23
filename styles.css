@@ -30,7 +30,7 @@ a:hover {
 .project {
   margin-bottom: 20px;
   padding-bottom: 10px;
-  border-bottom: 1px solid #f8ed0c;
+  border: 1px solid #f8ed0c;
 }
 
 .project h2,
