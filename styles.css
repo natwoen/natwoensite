@@ -105,3 +105,12 @@ p {
   color: #7878bb;
   background-color: #d6cb0a;
 }
+
+.sigma20 {
+  background-image: url("img/fleshwater.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 790px;
+  overflow: hidden;
+}
