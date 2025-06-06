@@ -118,3 +118,10 @@ p {
 .aibody {
   color: white;
 }
+
+video {
+  border: 2px solid #f8ed0c;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
